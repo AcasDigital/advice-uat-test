@@ -1,0 +1,2 @@
+# don't mess with Windows batch files (gradlew.bat, for example)
+*.bat text eol=crlf

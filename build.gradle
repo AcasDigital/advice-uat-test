@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    testCompile 'org.seleniumhq.selenium:selenium-java:3.12.0'
+}

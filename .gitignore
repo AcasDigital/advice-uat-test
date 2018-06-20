@@ -1,0 +1,23 @@
+# ignore editor-related things
+# ----------------------------
+# Visual Studio Code
+.vscode
+
+# Eclipse
+.settings
+.classpath
+.project
+
+# IntelliJ IDEA
+.idea
+*.iml
+*.iws
+*.ipr
+
+# Ignore gradle artifacts
+.gradle
+bin
+build
+
+# MacOS file system noise
+.DS_Store
